@@ -3,14 +3,14 @@ enum PingUnit {
     MicroSeconds,
     //% block="cm"
     Centimeters,
-    //% block="inch"
-    Inch
+    //% block="inches"
+    Inches
 }
 
 /**
  * Sonar and ping utilities
  */
-//% color="#2c3e50" weight=10
+//% color="#26A65B" weight=10
 namespace sonar {
     /**
      * Send a ping and get the echo time (in microseconds) as a result
