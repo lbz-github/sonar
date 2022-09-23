@@ -3,8 +3,8 @@ enum PingUnit {
     MicroSeconds,
     //% block="cm"
     Centimeters,
-    //% block="inches"
-    Inches
+    //% block="inch"
+    Inch
 }
 
 /**
