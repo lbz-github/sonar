@@ -10,7 +10,7 @@ enum PingUnit {
 /**
  * Sonar and ping utilities
  */
-//% color="#FC9D99" weight=10
+//% color="#D24D57" weight=10
 namespace sonar {
     /**
      * Send a ping and get the echo time (in microseconds) as a result
@@ -26,7 +26,7 @@ namespace sonar {
         pins.digitalWritePin(trig, 0);
         control.waitMicros(2);
         pins.digitalWritePin(trig, 1);
-        control.waitMicros(20);
+        control.waitMicros(50);
         pins.digitalWritePin(trig, 0);
 
         // read pulse
